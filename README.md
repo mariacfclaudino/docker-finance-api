@@ -50,12 +50,12 @@ To run in the background: `docker compose up -d --build`.
 ## 🔍 How It Works
 
 ```
-├── app/                  # API source code
-├── actions/              # Helper modules imported by the app
-├── Dockerfile            # Recipe to build the image
-├── docker-compose.yml    # How the container runs
-├── .dockerignore         # What stays out of the image
-├── .env.example          # Environment variable template
+├── app/                 
+├── actions/              
+├── Dockerfile            
+├── docker-compose.yml    
+├── .dockerignore         
+├── .env.example          
 └── requirements.txt
 ```
 
