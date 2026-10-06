@@ -32,10 +32,10 @@ Em relação à versão sem Docker, o projeto ganhou três arquivos na raiz:
 
 ```
 API-Controle-Financeiro/
-├── app/                     # código da API (inalterado)
-├── Dockerfile               # 🆕 receita para construir a imagem
-├── docker-compose.yml       # 🆕 define como o container roda
-├── .dockerignore            # 🆕 o que NÃO entra na imagem
+├── app/                    
+├── Dockerfile               
+├── docker-compose.yml       
+├── .dockerignore            
 ├── .env.example
 └── requirements.txt
 ```
